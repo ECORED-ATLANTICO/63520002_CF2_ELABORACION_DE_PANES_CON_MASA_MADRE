@@ -71,11 +71,101 @@ figcaption, table caption
 .bg-color
   &-1
     background-color: #EBF7FF
+  &-2
+    background-color: #EAECEE
+  &-3
+    background-color: #E7F2E7
+  &-4
+    color: #8CBF8A !important
+  &-5
+    background-color: #FBF5E9 !important
+  &-6
+    background-color: #F6F6F6
+  &-7
+    background-color: #EAF1FA
+  &-8
+    background-color: #EAF1FA
+  &-white
+    background-color: white
+  
 
 
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+.banner-text
+  background-color: #F2F8F2
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #EBCB93
+  border-radius: 20px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
 
 
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #EBE3C1
+  border: #EBE3C1
+.slyder-a__bullets__item--active
+  background-color: #E0BF32
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #E0BF32
 
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
+///////////////TABLAS/////////////////// 
+.tbl
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
 
 
 /**************************************************************/
