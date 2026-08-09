@@ -68,6 +68,8 @@ figcaption, table caption
 .bg-fondo
   &-1
     //background-image: url(../assets/curso/bg/3.svg)
+  &-slider
+    background-image: url(../assets/curso/bg-slider.png)
 .bg-color
   &-1
     background-color: #EBF7FF
@@ -89,6 +91,8 @@ figcaption, table caption
     color: #EBCB93 !important
   &-10
     background-color: #F2F8F2
+  &-11
+    background-color: #D7D9DE
   &-white
     background-color: white
   &-sintesis
@@ -172,6 +176,38 @@ figcaption, table caption
     border: 2px solid #B5B5B5
   table
     table-layout: auto
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+  color: white
+.acordion__activo
+  background-color: #F4F5F6 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: $color-acento-botones
+.tabs-a__tab
+  background-color: #F1F6FF
+.tarjeta.color-acento-botones--borde
+  background-color: #FBF5E9
+  border: solid 4px #FBF5E9
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: $color-acento-botones
+    color: $color-sistema-texto
+
 
 .bloque-texto-b.color-primario:before
   background-color: #EAF1FA   
