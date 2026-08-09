@@ -474,7 +474,7 @@
             .col-lg-9
               h2(data-aos="fade-left").mb-4 Pódcast
               
-              TarjetaAudio.color-secundario.bg-color-white.mb-3(
+              TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
                 texto="El ritmo de la cuenta T: Débitos, créditos y saldos"
                 tiempo
                 :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
