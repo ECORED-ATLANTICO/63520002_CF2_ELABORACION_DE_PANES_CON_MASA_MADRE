@@ -34,7 +34,7 @@
           p.mb-0 La panificación requiere el manejo de operaciones aritméticas básicas (suma, resta, multiplicación, división) para escalar recetas, calcular rendimientos y ajustar fórmulas. Por ejemplo, si una receta está diseñada para 1 kg de harina y se desea producir 5 kg de harina, todos los ingredientes se multiplican por 5. También se utilizan divisiones para reducir recetas.
         p.mb-0 A continuación, se presentan algunos ejemplos prácticos de operaciones aritméticas aplicadas: 
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5.justify-content-center
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
         .bg-color-8.tarjeta.p-4.mb-3
           h5 Ejemplo práctico 2 - Reducción
@@ -172,13 +172,13 @@
         p Este sistema facilita el diseño, la modificación y el escalado de recetas, ya que permite aumentar o disminuir las cantidades de los ingredientes sin alterar las proporciones de la formulación. Asimismo, constituye un lenguaje técnico común entre los profesionales de la panificación y favorece la estandarización de los procesos productivos.
     
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-xl-8
         .bg-color-5.tarjeta.p-3.text-center
           p La fórmula para calcular el porcentaje de cada ingrediente es la siguiente:
           h5 % del ingrediente = (Peso del ingrediente ÷ Peso de la harina) × 100
           p.mb-0 A continuación, presentamos un ejemplo práctico de formulación en el porcentaje panadero: 
     
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5.justify-content-center
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
         .bg-color-8.tarjeta.p-4.mb-3
           p Si se desea elaborar la receta utilizando 500 g de harina, las cantidades de los demás ingredientes se obtienen aplicando el porcentaje correspondiente:

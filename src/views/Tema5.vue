@@ -57,7 +57,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 10.
           span Características de los principales prefermentos
-        .tabla-a.color-secundario.mb-5.tbl
+        .tabla-a.color-secundario.tbl
           table
             caption Nota. SENA, (2026).
             thead
@@ -168,7 +168,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 12.
           span Hidrataciones comunes según tipo de pan (elaboración propia)
-        .tabla-a.color-secundario.mb-5.tbl
+        .tabla-a.color-secundario.tbl
           table
             caption Nota. SENA, (2026).
             thead
@@ -215,7 +215,7 @@
     p.mb-5 La técnica utilizada depende del volumen de producción, del nivel de hidratación de la masa y del tipo de pan que se desea elaborar.
 
     .row.justify-content-center.mb-5
-      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-6.col-lg-8.col-md-10.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -224,7 +224,7 @@
             h4.mb-3 Amasado manual (método francés) 
             p.mb-0 Se mezclan la harina, el agua y la masa madre hasta integrar los ingredientes. Luego se realiza una autólisis de aproximadamente 30 minutos, que favorece la hidratación de la harina y el desarrollo inicial del gluten. Después se incorpora la sal y se continúa el amasado mediante pliegues y estiramientos hasta obtener una masa lisa, elástica y capaz de superar la prueba de la membrana (windowpane).
     
-      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-6.col-lg-8.col-md-10.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -241,17 +241,17 @@
     p.mb-5 Durante el amasado se producen transformaciones físicas y químicas que determinan el comportamiento de la masa durante la fermentación.
 
     .row.justify-content-center.mb-5
-      .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-up")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta--boton.bg-color-10.h-100.p-4
           .row.justify-content-center.mb-3
-            .col-3
+            .col-6.col-lg-3
               figure
                 img(src='@/assets/curso/tema5/8.svg', alt='Texto que describa la imagen')
           p.mb-0 Las proteínas gliadina y glutenina absorben agua y se unen para formar la red de gluten, estructura que proporciona elasticidad y resistencia a la masa.
-      .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-down")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-down")
         .tarjeta--boton.bg-color-8.h-100.p-4
           .row.justify-content-center.mb-3
-            .col-3
+            .col-6.col-lg-3
               figure
                 img(src='@/assets/curso/tema5/9.svg', alt='Texto que describa la imagen')
           p.mb-0 La incorporación de oxígeno favorece la formación y estabilización del gluten. Sin embargo, un amasado excesivo puede oxidar los pigmentos naturales de la harina, aclarar la miga y disminuir parte de los compuestos responsables del aroma y el sabor del pan (Viteri & Cordero, 2024).
@@ -270,7 +270,7 @@
       .col-lg-8
         .bg-full-width
           .px-4.px-md-5.py-4
-            SlyderF(columnas="col-lg-6 col-xl-6")
+            SlyderF(columnas="col-xl-6")
               .tarjeta.bg-color-6.p-4.p-lg-5.box-shadow
                 .row.justify-content-center.mb-3
                   .col-5
@@ -324,7 +324,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/14.png')})`}"
       )
@@ -405,7 +405,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/22.png')})`}"
       )
@@ -431,7 +431,7 @@
             .h5.mb-0  (Flecha, 2015).
     
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-4.h-100
           h5 Variables de control durante el horneado
           p Para lograr resultados consistentes es necesario controlar tres variables principales:
@@ -537,7 +537,7 @@
 
         .bg-fondo-1
           .row.bg-color-9.tarjeta.px-5.py-4.align-items-center.justify-content-center
-            .col-md-6.col-lg-3.mb-3.mb-lg-0
+            .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema5/26.png", data-aos="zoom-in")
             .col-lg-9

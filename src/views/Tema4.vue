@@ -109,7 +109,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bg-color-5.tarjeta.px-4
+    .bg-color-5.tarjeta.p-4
       .row.align-items-center
         .col-lg-auto.mb-lg-0
           img.d-none.d-lg-flex(src="@/assets/curso/tema4/6.png").mx-auto
@@ -130,39 +130,39 @@
         .h5.mb-0 (Wing & Scott, 2021).
 
     .row.mb-5.align-items-center.justify-content-center
-      .col-md-8.col-lg-3.mb-3.mb-lg-0
+      .col-md-6.col-lg-3.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/7.png", data-aos="zoom-in")
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-11")
-          .row(titulo="Día 1: preparación del cultivo").align-items-center
-            .col-lg-10
+          .row(titulo="Día 1: preparación del cultivo").justify-content-center.align-items-center
+            .col-lg-10.mb-3.mb-lg-0
               p.ms-lg-5 Mezcle 50 g de harina integral de trigo o centeno con 50 g de agua potable a una temperatura aproximada de 25 a 28 °C en un frasco de vidrio limpio. Revuelva hasta obtener una mezcla homogénea y cubra el recipiente sin cerrarlo completamente para permitir el intercambio de gases. Deje reposar durante 24 horas en un ambiente entre 24 y 26 °C. En esta etapa aún no se observan cambios importantes, pero comienza el desarrollo de los microorganismos naturales.
-            .col-lg-2
+            .col-md-6.col-lg-2
               figure
                 img(src="@/assets/curso/tema4/8.png")
-          .row(titulo="Día 2: primer refresco").align-items-center
-            .col-lg-10
+          .row(titulo="Día 2: primer refresco").justify-content-center.align-items-center
+            .col-lg-10.mb-3.mb-lg-0
               p.ms-lg-5 Después de 24 horas, deseche aproximadamente la mitad de la mezcla (50 g) y agregue nuevamente 50 g de harina y 50 g de agua. Mezcle bien y deje reposar otras 24 horas. Es normal que la actividad sea escasa o incluso inexistente. Durante este periodo empiezan a establecerse las primeras poblaciones de levaduras y bacterias ácido-lácticas.
-            .col-lg-2
+            .col-md-6.col-lg-2
               figure
                 img(src="@/assets/curso/tema4/9.png")
-          .row(titulo="Día 3: inicio de la fermentación").align-items-center
-            .col-lg-10
+          .row(titulo="Día 3: inicio de la fermentación").justify-content-center.align-items-center
+            .col-lg-10.mb-3.mb-lg-0
               p.ms-lg-5 Repita el proceso de alimentación: deseche la mitad del cultivo y adicione 50 g de harina y 50 g de agua. En este momento suelen aparecer pequeñas burbujas y un aroma ligeramente ácido, señales de que la fermentación comienza a estabilizarse. Si aún no se observan estos cambios, continúe con el mismo procedimiento durante los días siguientes.
-            .col-lg-2
+            .col-md-6.col-lg-2
               figure
                 img(src="@/assets/curso/tema4/10.png")
-          .row(titulo="Días 4 y 5: desarrollo del cultivo").align-items-center
-            .col-lg-10
+          .row(titulo="Días 4 y 5: desarrollo del cultivo").justify-content-center.align-items-center
+            .col-lg-10.mb-3.mb-lg-0
               p.ms-lg-5 Continúe alimentando la masa madre cada 24 horas siguiendo el mismo procedimiento. La actividad fermentativa debe hacerse más evidente: el cultivo aumenta de volumen, aparecen numerosas burbujas y el aroma se vuelve fresco, ligeramente afrutado y ácido. Estos cambios indican que la comunidad de microorganismos se encuentra cada vez más activa y estable.
-            .col-lg-2
+            .col-md-6.col-lg-2
               figure
                 img(src="@/assets/curso/tema4/11.png")
-          .row(titulo="Días 5 a 7: masa madre lista para usar").align-items-center
-            .col-lg-10
+          .row(titulo="Días 5 a 7: masa madre lista para usar").justify-content-center.align-items-center
+            .col-lg-10.mb-3.mb-lg-0
               p.ms-lg-5 La masa madre estará lista cuando, después de alimentarla, duplique su volumen en aproximadamente 4 a 6 horas, presente abundantes burbujas y desprenda un aroma agradable, sin olores desagradables o a descomposición. Si todavía no alcanza este comportamiento, continúe con las alimentaciones diarias hasta que el cultivo muestre una fermentación constante y estable.
-            .col-lg-2
+            .col-md-6.col-lg-2
               figure
                 img(src="@/assets/curso/tema4/12.png")
     
@@ -171,7 +171,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.bg-color-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.bg-color-5.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/13.png')})`}"
       )
@@ -205,28 +205,28 @@
             .col-lg-8.mb-4.mb-lg-0
               h3 Paso 1.
               p Conservar una porción del cultivo (semilla) y desechar el excedente para mantener el equilibrio del cultivo.
-            .col-md-4.col-lg-4
+            .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema4/15.png", data-aos="zoom-in")
           .row.justify-content-center
-            .col-md-4.col-lg-4.mb-4.mb-lg-0
+            .col-md-8.col-lg-4.order-2.order-lg-1
               figure
                 img(src="@/assets/curso/tema4/16.png", data-aos="zoom-in")
-            .col-lg-8
+            .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
               h3 Paso 2. 
               p Agregar harina y agua fresca en la proporción establecida según la frecuencia de alimentación.
           .row.justify-content-center
             .col-lg-8.mb-4.mb-lg-0
               h3 Paso 3. 
               p Mezclar hasta obtener una masa homogénea, asegurando una distribución uniforme de los microorganismos.
-            .col-md-4.col-lg-4
+            .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema4/17.png", data-aos="zoom-in")
           .row.justify-content-center
-            .col-md-4.col-lg-4.mb-4.mb-lg-0
+            .col-md-8.col-lg-4.order-2.order-lg-1
               figure
                 img(src="@/assets/curso/tema4/18.png", data-aos="zoom-in")
-            .col-lg-8
+            .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
               h3 Paso 4. 
               p Dejar fermentar a temperatura ambiente hasta que la masa madre aumente de volumen, presente abundantes burbujas y alcance su máxima actividad. 
     
@@ -293,7 +293,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.bg-color-5.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/23.png')})`}"
       )
@@ -313,7 +313,7 @@
       .bloque-texto-d__autor 
         .h5.mb-0 (Flecha, 2015).
     
-    .row.mb-5.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center
       .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema4/24.png", data-aos="zoom-in")
@@ -364,7 +364,7 @@
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.5 Uso de la masa madre en panificación 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/25.png", data-aos="zoom-in")
@@ -377,7 +377,7 @@
           .bloque-texto-d__autor 
             .h5.mb-0  (Gänzle, 2014).
         .row.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-4.h-100
               h5 La masa madre aporta:
               ul.lista-ul--color.mb-0
@@ -468,7 +468,7 @@
 
         .bg-fondo-1
           .row.bg-color-9.tarjeta.px-5.py-4.align-items-center.justify-content-center
-            .col-md-6.col-lg-3.mb-3.mb-lg-0
+            .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema4/27.png", data-aos="zoom-in")
             .col-lg-9

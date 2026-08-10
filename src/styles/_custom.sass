@@ -45,7 +45,7 @@ figcaption, table caption
 
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-color: #FDFAF4 !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
@@ -68,6 +68,7 @@ figcaption, table caption
 .bg-fondo
   &-1
     background-image: url(../assets/curso/bg-1.png)
+    background-size: cover
   &-slider
     background-image: url(../assets/curso/bg-slider.png)
 .bg-color
@@ -228,14 +229,18 @@ figcaption, table caption
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: #E0BF32
-   
+    @media (max-width:430px)
+      padding: 1.1rem
+.crd_hover_txt--img img
+  @media (max-width:430px)
+    height: 350px
 
   
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em
-
+  
 
 .bloque-texto-b.color-primario:before
   background-color: #EAF1FA   

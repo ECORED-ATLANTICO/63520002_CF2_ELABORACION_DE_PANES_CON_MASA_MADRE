@@ -55,7 +55,7 @@
     
     .row.justify-content-center
       .col-lg-10
-        .bg-color-5.tarjeta.mb-5.p-4
+        .bg-color-5.tarjeta.p-4
           .row.align-items-center
             .col-lg-auto.mb-lg-0
               img.d-none.d-lg-flex(src="@/assets/curso/tema3/4.png").mx-auto
@@ -80,7 +80,7 @@
       .p-4.p-lg-5
         SlyderA(tipo="b").bg-color-white.p-4.tarjeta
           .row.justify-content-center.align-items-center.p-3.p-lg-4
-            .col-lg-4.mb-3.mb-lg-0
+            .col-md-6.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/6.png', alt='Imagen de acompañamiento')
             .col-lg-8.mb-4.mb-md-0
@@ -116,29 +116,29 @@
     p La fermentación es un proceso dinámico. Su velocidad y sus resultados pueden modificarse mediante el control de diferentes condiciones de elaboración.
 
 
-    TabsA.color-acento-botones
+    TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Temperatura")
         .row.justify-content-center
-          .col-lg
+          .col-lg.mb-3.mb-lg-0
             h4 Temperatura
             p.mb-0 La temperatura regula la velocidad de la fermentación al influir en la actividad de levaduras y bacterias ácido-lácticas. El rango recomendado para una masa madre es de 24 a 28 °C, ya que favorece un desarrollo equilibrado de los microorganismos. Temperaturas superiores a 30 °C incrementan la producción de ácidos, mientras que valores inferiores a 18 °C ralentizan la fermentación. Controlar esta variable permite obtener panes con diferentes perfiles de aroma, sabor y textura.
-          .col-lg-auto
+          .col-md-4.col-lg-auto
             figure
               img(src='@/assets/curso/tema3/7.svg', alt='Imagen de acompañamiento')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Hidratación")
         .row.justify-content-center
-          .col-lg
+          .col-lg.mb-3.mb-lg-0
             h4 Hidratación
             p.mb-0 La hidratación corresponde a la cantidad de agua utilizada con respecto al peso de la harina. Una masa madre con mayor hidratación facilita la actividad microbiana, acelera la fermentación y favorece la producción de ácido láctico. Por el contrario, una masa más firme fermenta con mayor lentitud y puede desarrollar una acidez más intensa. La hidratación influye directamente en la textura de la masa, la estructura de la miga y las características sensoriales del pan.
-          .col-lg-auto
+          .col-md-4.col-lg-auto
             figure
               img(src='@/assets/curso/tema3/8.svg', alt='Imagen de acompañamiento')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Tiempo")
         .row.justify-content-center
-          .col-lg
+          .col-lg.mb-3.mb-lg-0
             h4 Tiempo
             p.mb-0 El tiempo determina cuánto actúan los microorganismos sobre los azúcares de la masa. Una fermentación corta puede producir panes con poco volumen y aromas poco desarrollados. En cambio, una fermentación más prolongada favorece la formación de compuestos aromáticos y una mayor acidez. Sin embargo, un exceso de tiempo puede debilitar la red de gluten y reducir la capacidad de la masa para retener los gases generados durante la fermentación.
-          .col-lg-auto
+          .col-md-4.col-lg-auto
             figure
               img(src='@/assets/curso/tema3/9.svg', alt='Imagen de acompañamiento')
       .tarjeta.color-acento-botones--borde.p-4(titulo="pH ")
@@ -146,7 +146,7 @@
           .col-lg
             h4 pH 
             p.mb-0 El pH indica el nivel de acidez de la masa y disminuye progresivamente durante la fermentación debido a la producción de ácidos orgánicos. Una masa madre madura suele presentar un pH entre 3,8 y 4,5, condición que limita el crecimiento de microorganismos indeseables y favorece la conservación del pan. Mantener un pH adecuado también contribuye al desarrollo del sabor, la estabilidad de la masa y la calidad del producto final.
-          .col-lg-auto
+          .col-md-4.col-lg-auto
             figure
               img(src='@/assets/curso/tema3/10.svg', alt='Imagen de acompañamiento')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Alimentación de la masa madre ")
@@ -217,7 +217,7 @@
         p.mb-0 La observación sistemática del aroma, el sabor, la textura y el volumen constituye una herramienta práctica para valorar la calidad de la fermentación, incluso sin el uso de instrumentos especializados.
     
     .row.mb-5.align-items-center.justify-content-center
-      .col-md-8.col-lg-3.mb-3.mb-lg-0
+      .col-md-6.col-lg-3.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/14.png", data-aos="zoom-in")
       .col-lg-9
@@ -268,7 +268,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.bg-color-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.bg-color-5.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema3/15.png')})`}"
       )
@@ -292,9 +292,9 @@
         figure
           img(src="@/assets/curso/tema3/17.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-full-width.bg-fondo-1
+        .bg-full-width
           .px-4.px-md-5.py-4
-            SlyderF(columnas="col-lg-6 col-xl-6")
+            SlyderF(columnas="col-xl-6")
               .tarjeta.bg-color-6.p-4.p-lg-5.box-shadow
                 .row.justify-content-center.mb-3
                   .col-5

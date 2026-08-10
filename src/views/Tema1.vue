@@ -34,19 +34,19 @@
           .p-4
             SlyderA(tipo="b").bg-color-white.p-4.tarjeta
               .row.justify-content-center.align-items-center.p-3.p-lg-4
-                .col-lg-2.mb-3.mb-lg-0.order-lg-2
+                .col-md-6.col-lg-2.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema1/3.svg', alt='Imagen de acompañamiento')
                 .col-lg-10.mb-4.mb-md-0.order-lg-1
                   p.mb-0 <b>Harina</b>: es el polvo obtenido de la molienda de granos de cereales, principalmente trigo. La harina de trigo es la más utilizada porque contiene dos proteínas, gliadina y glutenina, que al hidratarse forman el gluten, una red elástica que atrapa los gases de la fermentación (Viteri & Cordero, 2024). Las harinas se clasifican según su fuerza (contenido proteico) y su extracción (grado de refinamiento). Para masa madre se recomienda harina integral o semi integral en las primeras etapas, ya que contienen más microorganismos y nutrientes. Para el pan final se pueden usar harinas de fuerza (11-13 % de proteína) que proporcionan buena estructura.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
-                .col-lg-2.mb-3.mb-lg-0.order-lg-2
+                .col-md-6.col-lg-2.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema1/4.svg', alt='Imagen de acompañamiento')
                 .col-lg-10.mb-4.mb-md-0.order-lg-1
                   p.mb-0 <b>Agua</b>: es el segundo ingrediente en importancia. Debe ser potable, preferiblemente sin cloro (el cloro inhibe las levaduras). La temperatura del agua es una variable de control crítica, ya que afecta la velocidad de fermentación (Flecha, 2015). Se recomienda usar agua filtrada o dejar reposar el agua del grifo 24 horas para que el cloro se evapore.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
-                .col-lg-2.mb-3.mb-lg-0.order-lg-2
+                .col-md-6.col-lg-2.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema1/5.svg', alt='Imagen de acompañamiento')
                 .col-lg-10.mb-4.mb-md-0.order-lg-1
@@ -139,7 +139,7 @@
             | Humedad máxima, cenizas, gluten húmedo.
           li.mb-3.d-flex
             i.fas.fa-circle-check.bg-color-4
-            | Carga microbiana (recuento de mesófilos, esporas de <em>Bacillus cereus</em>).
+            p.mb-0 Carga microbiana (recuento de mesófilos, esporas de <em>Bacillus cereus</em>).
           li.mb-3.d-flex
             i.fas.fa-circle-check.bg-color-4
             | Condiciones de almacenamiento y vida útil.
@@ -152,9 +152,9 @@
         figure
           img(src="@/assets/curso/tema1/7.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-full-width.bg-fondo-1
+        .bg-full-width
           .px-4.px-md-5.py-4
-            SlyderF(columnas="col-lg-6 col-xl-6")
+            SlyderF(columnas="col-lg-12 col-xl-6")
               .tarjeta.bg-color-6.p-4.p-lg-5.box-shadow
                 .row.justify-content-center.mb-3
                   .col-5
@@ -196,7 +196,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
           span Ejemplo de ficha técnica de proveedor de harina
-        .tabla-a.color-secundario.mb-5.tbl
+        .tabla-a.color-secundario.tbl
           table
             caption Nota. Adaptado de la ficha técnica de Harina de Trigo Fortificada 3 Castillos Premium (Rafael del Castillo & Cía. S.A., 2024).
             thead
@@ -289,39 +289,39 @@
     .row.justify-content-center
       .col-lg-10
         PasosA.color-primario.mb-5(tipo="n")
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-lg-0
               h3 Paso 1. Inspeccionar visualmente el lote.
               p Verifique que los sacos no presenten roturas, manchas de humedad ni evidencias de plagas, como gorgojos o polillas. Además, confirme que los empaques estén limpios y con el sellado intacto.
-            .col-md-4.col-lg-4
+            .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in")
-          .row.justify-content-center
-            .col-md-4.col-lg-4.mb-4.mb-lg-0
+          .row.justify-content-center.align-items-center
+            .col-md-8.col-lg-4.order-2.order-lg-1
               figure
                 img(src="@/assets/curso/tema1/16.png", data-aos="zoom-in")
-            .col-lg-8
+            .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
               h3 Paso 2. Verificar la documentación.
               p Revise la ficha técnica del lote y la fecha de vencimiento, la cual debe ser de al menos cuatro meses a partir de la fecha de elaboración. Compruebe que la harina cumpla con las especificaciones requeridas, como un contenido de proteína igual o superior al 12,5 % y un porcentaje de gluten húmedo entre el 31 % y el 36 %.
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-lg-0
               h3 Paso 3. Registrar la información.
               p Diligencie el formato de recepción de materias primas, registrando la fecha, el nombre del producto, el número de lote, la fecha de vencimiento, la cantidad recibida y las condiciones observadas durante la inspección.
-            .col-md-4.col-lg-4
+            .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema1/17.png", data-aos="zoom-in")
-          .row.justify-content-center
-            .col-md-4.col-lg-4.mb-4.mb-lg-0
+          .row.justify-content-center.align-items-center
+            .col-md-8.col-lg-4.order-2.order-lg-1
               figure
                 img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in")
-            .col-lg-8
+            .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
               h3 Paso 4. Almacenar la harina.
               p Ubique los sacos sobre estibas de madera o plástico, separadas del piso por al menos 15 cm y de las paredes por un mínimo de 50 cm. Mantenga espacio suficiente entre las estibas para facilitar la limpieza y la circulación del aire, y aplique el método PEPS (Primero en Entrar, Primero en Salir) para asegurar una adecuada rotación del inventario.
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-lg-0
               h3 Paso 5. Realizar el monitoreo del almacenamiento.
               p Controle diariamente la temperatura del área de almacenamiento, procurando que no supere los 25 °C, y la humedad relativa, que no debe exceder el 60 %. Asimismo, inspeccione la presencia de plagas, humedad o formación de terrones que puedan afectar la calidad de la harina. 
-            .col-md-4.col-lg-4
+            .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema1/19.png", data-aos="zoom-in")
       
