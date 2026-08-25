@@ -475,7 +475,7 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="El ritmo de la cuenta T: Débitos, créditos y saldos"
+                texto="El arte de la masa madre de la harina y el agua a un cultivo vivo"
                 tiempo
                 :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
               )

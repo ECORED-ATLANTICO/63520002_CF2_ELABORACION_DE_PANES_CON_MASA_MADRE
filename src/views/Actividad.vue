@@ -536,7 +536,7 @@ export default {
           mensaje_correcto:
             'Correcto. Aunque no es el prefermento típico de la masa madre pura (que usa solo levaduras silvestres y bacterias lácticas), el <em>poolish</em> es un ejemplo de prefermento muy usado en panadería artesanal que aporta sabor y textura a los panes.',
           mensaje_incorrecto:
-            'Correcto. Aunque no es el prefermento típico de la masa madre pura, es un ejemplo de prefermento muy usado.',
+            'Aunque no es el prefermento típico de la masa madre pura, es un ejemplo de prefermento muy usado.',
         },
         {
           id: 16,

@@ -544,9 +544,9 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="El ritmo de la cuenta T: Débitos, créditos y saldos"
+                texto="Del frasco al horno produciendo pan artesanal de masa madre"
                 tiempo
-                :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('../assets/curso/podcast/podcast2.mp3')"
               )
     
     .bg-color-7.tarjeta.p-3.mb-5
