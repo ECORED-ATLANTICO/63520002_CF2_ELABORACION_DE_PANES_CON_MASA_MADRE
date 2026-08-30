@@ -91,7 +91,7 @@
     
     .bg-color-5.tarjeta.p-4
       h5 Ejemplo práctico 3 - Cálculo de rendimiento
-      p Si se sabe que ,durante el horneado el pan pierde aproximadamente el 12 % de su peso por evaporación de agua, ¿cuánto debe pesar la masa antes de hornear para obtener un pan de 500 g? 
+      p Si se sabe que, durante el horneado el pan pierde aproximadamente el 12 % de su peso por evaporación de agua, ¿cuánto debe pesar la masa antes de hornear para obtener un pan de 500 g? 
       ul.lista-ul--color.mb-0
         li.mb-3.d-flex
           i.fas.fa-circle-check.bg-color-4
@@ -185,13 +185,13 @@
           ul.lista-ul--color.mb-0
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Agua: 500 × 0,70 = 350 g
+              | Agua: 500 × 0,70 = 350 g.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Masa madre: 500 × 0,25 = 125 g
+              | Masa madre: 500 × 0,25 = 125 g.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Sal: 500 × 0,02 = 10 g
+              | Sal: 500 × 0,02 = 10 g.
         .bg-color-5.tarjeta.p-4
           .row.align-items-center
             .col-lg-auto.mb-lg-0.order-lg-2
@@ -205,24 +205,24 @@
           ul.lista-ul--color.mb-0
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Harina: 100 %
+              | Harina: 100 %.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Agua: 70 %
+              | Agua: 70 %.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Masa madre (100 % de hidratación): 25 %
+              | Masa madre (100 % de hidratación): 25 %.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Sal: 2 %
-          h5.bg-color-3.p-3 Total porcentual: 197 %
+              | Sal: 2 %.
+          h5.bg-color-3.p-3 Total porcentual: 197 %.
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Esquema del porcentaje panadero
-        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema2/7.svg", alt="La figura 1 describe un esquema del porcentaje panadero Sal: 5 % Masa Madre 25% Agua 70 % Harina 100% Suma total = 197 % (masa total en relación con la harina)")
+        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema2/7.svg", alt="La figura 1 describe un esquema del porcentaje panadero:  Sal: 5 %. Masa Madre 25%. Agua 70 %. Harina 100%. Suma total = 197 % (masa total en relación con la harina).")
         figcaption Nota. SENA, (2026).
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")

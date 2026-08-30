@@ -145,7 +145,7 @@
             | Condiciones de almacenamiento y vida útil.
         
         .cajon.p-4.color-primario.bg-color-5
-          p.mb-0 Todas las fichas técnicas, deben contener una serie de elementos básicos. A continuación, se hace una descripción de ,los mismos:
+          p.mb-0 Todas las fichas técnicas, deben contener una serie de elementos básicos. A continuación, se hace una descripción de los mismos:
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0
@@ -169,7 +169,7 @@
                 .row.justify-content-center.mb-3
                   .col-5
                     img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop')
-                p.text-center <b>Análisis microbiológico</b>: recuento de mesófilos, mohos y levaduras, Escherichia coli, Salmonella, Bacillus cereus.
+                p.text-center <b>Análisis microbiológico</b>: recuento de mesófilos, mohos y levaduras, <em>Escherichia coli, Salmonella, Bacillus cereus</em>.
               .tarjeta.bg-color-6.p-4.p-lg-5.box-shadow
                 .row.justify-content-center.mb-3
                   .col-5
@@ -189,7 +189,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .bg-color-7.tarjeta.p-3
-          p.mb-0 Asimismo ,compartimos en una tabla un ejemplo de ficha técnica de un proveedor de harina: 
+          p.mb-0 Asimismo, compartimos en una tabla un ejemplo de ficha técnica de un proveedor de harina: 
     
     .row.justify-content-center
       .col-lg-10

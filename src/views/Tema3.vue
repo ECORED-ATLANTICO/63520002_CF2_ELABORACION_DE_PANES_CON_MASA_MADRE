@@ -60,7 +60,7 @@
             .col-lg-auto.mb-lg-0
               img.d-none.d-lg-flex(src="@/assets/curso/tema3/4.png").mx-auto
             .col-lg
-              p.mb-0 <b>Dato de interés</b>: Una masa madre madura puede contener aproximadamente entre 10⁸ y 10⁹ unidades formadoras de colonias (UFC) de bacterias ácido-lácticas por gramo y entre 10⁶ y 10⁷ UFC de levaduras por gramo, lo que evidencia la intensa actividad microbiológica responsable de las características distintivas de este tipo de fermentación . 
+              p.mb-0 <b>Dato de interés</b>: una masa madre madura puede contener aproximadamente entre 10⁸ y 10⁹ unidades formadoras de colonias (UFC) de bacterias ácido-lácticas por gramo y entre 10⁶ y 10⁷ UFC de levaduras por gramo, lo que evidencia la intensa actividad microbiológica responsable de las características distintivas de este tipo de fermentación . 
     
     separador
     
@@ -349,7 +349,7 @@
                 td Miga abierta, irregular
               tr.bg-color-sintesis
                 td.text-bold 75 - 85
-                td Ciabatta, focaccia
+                td <em>Ciabatta, focaccia</em>
                 td Miga muy abierta, grandes alveolos
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")

@@ -84,8 +84,8 @@
             thead
               tr.bg-color-3
                 th Característica
-                th Masa madre líquida (100%)
-                th Masa madre dura (50-60%)
+                th Masa madre líquida (100 %)
+                th Masa madre dura (50-60 %)
             tbody
               tr.bg-color-sintesis
                 td.text-bold Velocidad de fermentación
@@ -351,7 +351,7 @@
             ul.lista-ul--color.mb-0
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-4
-                | La masa madre puede desarrollar una capa de líquido oscuro (agua de fermentación, llamada hooch). Esto es normal; se puede revolver o decantar.
+                | La masa madre puede desarrollar una capa de líquido oscuro (agua de fermentación, llamada <em>hooch</em>). Esto es normal; se puede revolver o decantar.
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-4
                 | La acidez puede aumentar ligeramente, lo que aporta más sabor.
@@ -417,7 +417,7 @@
     
     .row.justify-content-center
       .col-lg-10
-        p La siguiente tabla describe la soluciones utilizadas para resolver los problemas más comunes que se presentan en la elaboración de masa madre: 
+        p La siguiente tabla describe las soluciones utilizadas para resolver los problemas más comunes que se presentan en la elaboración de masa madre: 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 9.
           span Solución de problemas comunes en la masa madre
@@ -464,7 +464,7 @@
     
     .row.justify-content-center
       .col-lg-8
-        p Con el objetivo de que amplíe sus conocimientos en el tema abordado, lo invitamos a consultar el siguiente pódcast en el enlace a continuación: 
+        p Con el objetivo de que amplíe sus conocimientos en el tema abordado, lo invitamos a consultar el siguiente pódcast: 
 
         .bg-fondo-1
           .row.bg-color-9.tarjeta.px-5.py-4.align-items-center.justify-content-center
@@ -475,7 +475,7 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="El arte de la masa madre de la harina y el agua a un cultivo vivo"
+                texto="El arte de la masa madre: de la harina y el agua a un cultivo vivo"
                 tiempo
                 :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
               )

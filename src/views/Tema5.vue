@@ -76,12 +76,12 @@
                 td.text-bold <em>Poolish</em>
                 td 100 %
                 td 4-12 h
-                td Baguettes, pizzas
+                td <em>Baguettes</em>, pizzas
               tr.bg-color-sintesis
-                td.text-bold Biga
+                td.text-bold <em>Bigá</em>
                 td 50-60 %
                 td 12-16 h
-                td Panes italianos, ciabatta
+                td Panes italianos, <em>ciabatta</em>
     
     separador
     
@@ -99,16 +99,16 @@
           ul.lista-ul--color.mb-0
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Harina de trigo panadero: 100 %
+              | Harina de trigo panadero: 100 %.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Agua: 65-75 % (según hidratación deseada)
+              | Agua: 65-75 % (según hidratación deseada).
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Masa madre activa (100 % hidratación): 20-30 %
+              | Masa madre activa (100 % hidratación): 20-30 %.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              | Sal: 1.8-2.2 %
+              | Sal: 1.8-2.2 %.
     
     .row.justify-content-center
       .col-lg-10
@@ -155,13 +155,13 @@
               ul.lista-ul--color.mb-0
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-4
-                  | Harina total = 500 + 62.5 = 562.5 g
+                  | Harina total = 500 + 62.5 = 562.5 g.
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-4
-                  | Agua total = 350 + 62.5 = 412.5 g
+                  | Agua total = 350 + 62.5 = 412.5 g.
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-4
-                  | Hidratación real = 412.5 / 562.5 = 73.3%
+                  | Hidratación real = 412.5 / 562.5 = 73.3%.
 
     .row.justify-content-center
       .col-lg-10
@@ -182,11 +182,11 @@
                 td 60 - 65 %
                 td Miga cerrada, suave
               tr.bg-color-white
-                td.text-bold Baguette
+                td.text-bold <em>Baguette</em>
                 td 65 - 70 %
                 td Miga alveolar, corteza crujiente
               tr.bg-color-sintesis
-                td.text-bold Pan rústico (ciabatta)
+                td.text-bold Pan rústico (<em>ciabatta</em>)
                 td 70 - 80 %
                 td Miga muy abierta, irregular
               tr.bg-color-white
@@ -222,7 +222,7 @@
               img(src="@/assets/curso/tema5/6.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Amasado manual (método francés) 
-            p.mb-0 Se mezclan la harina, el agua y la masa madre hasta integrar los ingredientes. Luego se realiza una autólisis de aproximadamente 30 minutos, que favorece la hidratación de la harina y el desarrollo inicial del gluten. Después se incorpora la sal y se continúa el amasado mediante pliegues y estiramientos hasta obtener una masa lisa, elástica y capaz de superar la prueba de la membrana (windowpane).
+            p.mb-0 Se mezclan la harina, el agua y la masa madre hasta integrar los ingredientes. Luego se realiza una autólisis de aproximadamente 30 minutos, que favorece la hidratación de la harina y el desarrollo inicial del gluten. Después se incorpora la sal y se continúa el amasado mediante pliegues y estiramientos hasta obtener una masa lisa, elástica y capaz de superar la prueba de la membrana (<em>windowpane</em>).
     
       .col-xl-6.col-lg-8.col-md-10.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -444,7 +444,7 @@
               p.mb-0 <b>Tiempo de horneado</b>: depende del tamaño de la pieza. Como referencia, un pan de 500 g requiere entre 30 y 35 minutos, mientras que una hogaza de 800 g necesita entre 40 y 45 minutos.
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              p.mb-0 <b>Vapor</b>: durante los primeros minutos mantiene la superficie húmeda y flexible, favoreciendo la máxima expansión del pan (horn spring). 
+              p.mb-0 <b>Vapor</b>: durante los primeros minutos mantiene la superficie húmeda y flexible, favoreciendo la máxima expansión del pan (<em>horn spring</em>). 
       .col-lg-6
         .bg-color-5.tarjeta.p-4.h-100
           h5 Etapas del horneado
@@ -452,7 +452,7 @@
           ul.lista-ul--color.mb-0
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
-              p.mb-0 <b>Expansión inicial</b>: el calor acelera la producción y expansión de los gases, provocando el crecimiento final del pan (horn spring).
+              p.mb-0 <b>Expansión inicial</b>: el calor acelera la producción y expansión de los gases, provocando el crecimiento final del pan (<em>horn spring</em>).
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
               p.mb-0 <b>Formación de la corteza</b>: la superficie pierde humedad y comienza el dorado mediante la reacción de Maillard, desarrollando color y aromas característicos.
@@ -533,7 +533,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        p Con el objetivo de que amplíe sus conocimientos en el tema abordado, lo invitamos a consultar el siguiente pódcast en el enlace a continuación: 
+        p Con el objetivo de que amplíe sus conocimientos en el tema abordado, lo invitamos a consultar el siguiente pódcast: 
 
         .bg-fondo-1
           .row.bg-color-9.tarjeta.px-5.py-4.align-items-center.justify-content-center
@@ -544,7 +544,7 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="Del frasco al horno produciendo pan artesanal de masa madre"
+                texto="Del frasco al horno: produciendo pan artesanal de masa madre"
                 tiempo
                 :audio="require_src('../assets/curso/podcast/podcast2.mp3')"
               )

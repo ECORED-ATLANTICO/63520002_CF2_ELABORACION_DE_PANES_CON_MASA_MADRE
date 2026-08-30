@@ -98,7 +98,7 @@ export default {
         {
           id: 3,
           texto:
-            'En el sistema de porcentaje panadero, la harina se considera siempre el 100% y los demás ingredientes se expresan como porcentajes de esa harina. ¿Cuál es la principal ventaja de este sistema?',
+            'En el sistema de porcentaje panadero, la harina se considera siempre el 100 % y los demás ingredientes se expresan como porcentajes de esa harina. ¿Cuál es la principal ventaja de este sistema?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -506,7 +506,7 @@ export default {
         {
           id: 15,
           texto:
-            'El <em>poolish</em> es un prefermento líquido con 100% de hidratación que se utiliza comúnmente en baguettes y pizzas. ¿Cuál es su principal característica?',
+            'El <em>poolish</em> es un prefermento líquido con 100 % de hidratación que se utiliza comúnmente en <em>baguettes</em> y pizzas. ¿Cuál es su principal característica?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [

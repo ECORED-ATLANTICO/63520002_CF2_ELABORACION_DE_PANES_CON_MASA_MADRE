@@ -140,7 +140,7 @@ export default {
           },
           {
             numero: '4.6',
-            titulo: 'Solución de problemas comunes',
+            titulo: 'Solución de problemas comunes en la masa madre',
             hash: 't_4_6',
           },
         ],
@@ -400,7 +400,7 @@ export default {
       autores: [
         {
           nombre: 'Yina Paola Castro Zarate',
-          cargo: 'Experto Temático Gastronomía',
+          cargo: 'Experta Temática Gastronomía',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -440,12 +440,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -455,7 +455,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
