@@ -351,7 +351,7 @@
             ul.lista-ul--color.mb-0
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-4
-                | La masa madre puede desarrollar una capa de líquido oscuro (agua de fermentación, llamada <em>hooch</em>). Esto es normal; se puede revolver o decantar.
+                p.mb-0 La masa madre puede desarrollar una capa de líquido oscuro (agua de fermentación, llamada <em>hooch</em>). Esto es normal; se puede revolver o decantar.
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-4
                 | La acidez puede aumentar ligeramente, lo que aporta más sabor.
