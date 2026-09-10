@@ -659,7 +659,7 @@ export default {
               id: 'b',
               texto:
                 'En una bolsa de plástico hermética a temperatura ambiente.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -671,7 +671,7 @@ export default {
               id: 'd',
               texto:
                 'Temperatura ambiente (envuelto en un paño de algodón o bolsa de papel) o congelación para larga duración.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:

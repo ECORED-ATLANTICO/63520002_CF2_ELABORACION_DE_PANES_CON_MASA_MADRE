@@ -7,7 +7,7 @@
         span 1
       h1 Materias primas para la panificación
     
-    img(src="@/assets/curso/tema1/1.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema1/1.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2
       .col-lg-10(data-aos="fade-up")
@@ -38,7 +38,7 @@
                   figure
                     img(src='@/assets/curso/tema1/3.svg', alt='Imagen de acompañamiento')
                 .col-lg-10.mb-4.mb-md-0.order-lg-1
-                  p.mb-0 <b>Harina</b>: es el polvo obtenido de la molienda de granos de cereales, principalmente trigo. La harina de trigo es la más utilizada porque contiene dos proteínas, gliadina y glutenina, que al hidratarse forman el gluten, una red elástica que atrapa los gases de la fermentación (Viteri & Cordero, 2024). Las harinas se clasifican según su fuerza (contenido proteico) y su extracción (grado de refinamiento). Para masa madre se recomienda harina integral o semi integral en las primeras etapas, ya que contienen más microorganismos y nutrientes. Para el pan final se pueden usar harinas de fuerza (11-13 % de proteína) que proporcionan buena estructura.
+                  p.mb-0 <b>Harina</b>: es el polvo obtenido de la molienda de granos de cereales, principalmente trigo. La harina de trigo es la más utilizada porque contiene dos proteínas, gliadina y glutenina, que al hidratarse forman el gluten, una red elástica que atrapa los gases de la fermentación (Viteri & Cordero, 2024). Las harinas se clasifican según su fuerza (contenido proteico) y su extracción (grado de refinamiento). Para masa madre se recomienda harina integral o semiintegral en las primeras etapas, ya que contienen más microorganismos y nutrientes. Para el pan final se pueden usar harinas de fuerza (11-13 % de proteína) que proporcionan buena estructura.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-md-6.col-lg-2.mb-3.mb-lg-0.order-lg-2
                   figure
@@ -145,7 +145,7 @@
             | Condiciones de almacenamiento y vida útil.
         
         .cajon.p-4.color-primario.bg-color-5
-          p.mb-0 Todas las fichas técnicas, deben contener una serie de elementos básicos. A continuación, se hace una descripción de los mismos:
+          p.mb-0 Todas las fichas técnicas deben contener una serie de elementos básicos. A continuación, se hace una descripción de los mismos:
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0
@@ -255,7 +255,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Almacenamiento y conservación
     
-    p.mb-5 El almacenamiento adecuado de las materias primas es esencial para preservar su calidad y evitar contaminaciones. Las harinas deben guardarse en recipientes herméticos o en sacos sobre estibas (separadas del piso al menos 15 cm y de las paredes 50 cm), en un lugar fresco (temperatura inferior a 25 °C), seco (humedad relativa < 60 %) y ventilado (Viteri & Cordero, 2024). El agua debe almacenarse en recipientes limpios y tapados, preferiblemente de acero inoxidable o plástico grado alimenticio. La sal se conserva en envases cerrados en lugar seco para evitar que absorba humedad. Es fundamental aplicar el principio PEPS (Primero en Entrar, Primero en Salir) para rotar inventarios y evitar el vencimiento. Se recomienda inspeccionar periódicamente la presencia de plagas o signos de humedad.
+    p.mb-5 El almacenamiento adecuado de las materias primas es esencial para preservar su calidad y evitar contaminaciones. Las harinas deben guardarse en recipientes herméticos o en sacos sobre estibas (separadas del piso al menos 15 cm y de las paredes 50 cm), en un lugar fresco (temperatura inferior a 25 °C), seco (humedad relativa < 60 %) y ventilado (Viteri & Cordero, 2024). El agua debe almacenarse en recipientes limpios y tapados, preferiblemente de acero inoxidable o plástico de grado alimenticio. La sal se conserva en envases cerrados en lugar seco para evitar que absorba humedad. Es fundamental aplicar el principio PEPS (Primero en Entrar, Primero en Salir) para rotar inventarios y evitar el vencimiento. Se recomienda inspeccionar periódicamente la presencia de plagas o signos de humedad.
   
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0.order-lg-2

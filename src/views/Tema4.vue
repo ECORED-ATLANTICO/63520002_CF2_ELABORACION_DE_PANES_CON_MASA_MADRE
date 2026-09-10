@@ -31,7 +31,7 @@
           img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1        
         .cajon.p-4.color-primario.bg-color-5.mb-3 
-          p.mb-0 La masa madre es el método de fermentación natural más antiguo utilizado para elaborar pan. Su origen se remonta al Antiguo Egipto, hace más de 5.000 años, cuando se descubrió que una mezcla de harina y agua, al permanecer en reposo, fermentaba de forma espontánea y permitía obtener panes de mayor volumen, aroma y sabor (Castiblanco, 2020). Actualmente también se conoce como <em>sourdough</em> o <em>levain</em>.
+          p.mb-0 La masa madre es el método de fermentación natural más antiguo utilizado para elaborar pan. Su origen se remonta al Antiguo Egipto, hace más de 5.000 años, cuando se descubrió que una mezcla de harina y agua, al permanecer en reposo, fermentaba de forma espontánea y permitía obtener panes de mayor volumen, aroma y sabor (Castiblanco, 2020). Actualmente, también se conoce como <em>sourdough</em> o <em>levain</em>.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -124,7 +124,7 @@
     .bloque-texto-b.color-primario.p-4(data-aos="fade-up").mb-5
       .bloque-texto-b__texto
         i.fas.fa-quote-left.bg-color-9
-        p.mb-0 Para obtener masa madre desde cero se requiere entre 5 y 7 días. A continuación, se describe el procedimiento para una masa madre líquida (100% hidratación) a 25 °C.
+        p.mb-0 Para obtener masa madre desde cero se requiere entre 5 y 7 días. A continuación, se describe el procedimiento para una masa madre líquida (100 % hidratación) a 25 °C.
         i.fas.fa-quote-right.bg-color-9
       .bloque-texto-d__autor 
         .h5.mb-0 (Wing & Scott, 2021).

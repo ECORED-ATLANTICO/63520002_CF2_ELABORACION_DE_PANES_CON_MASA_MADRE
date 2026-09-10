@@ -50,7 +50,7 @@
           div(titulo="Levaduras silvestres")
             p.ms-lg-5 Las levaduras silvestres, entre ellas <em>Saccharomyces cerevisiae, Candida milleri y Kluyveromyces marxianus</em>, transforman los azúcares fermentables en dióxido de carbono (CO₂) y etanol. El dióxido de carbono queda atrapado en la red de gluten, favoreciendo el crecimiento de la masa y la formación de una miga ligera y aireada. Además, durante la fermentación producen compuestos que contribuyen al desarrollo del aroma característico del pan.
           div(titulo="Bacterias ácido-lácticas")
-            p.ms-lg-5 Las bacterias ácido-lácticas, pertenecientes principalmente a los géneros Lactobacillus, Leuconostoc y Pediococcus, producen ácido láctico y ácido acético a partir de los azúcares disponibles en la masa. Estos ácidos disminuyen el pH, favorecen la conservación del pan al limitar el crecimiento de microorganismos indeseables, fortalecen la estructura de la masa y aportan el sabor ligeramente ácido característico de los panes elaborados con masa madre.
+            p.ms-lg-5 Las bacterias ácido-lácticas, pertenecientes principalmente a los géneros <em>Lactobacillus, Leuconostoc</em> y <em>Pediococcus</em>, producen ácido láctico y ácido acético a partir de los azúcares disponibles en la masa. Estos ácidos disminuyen el pH, favorecen la conservación del pan al limitar el crecimiento de microorganismos indeseables, fortalecen la estructura de la masa y aportan el sabor ligeramente ácido característico de los panes elaborados con masa madre.
             p.ms-lg-5 La interacción equilibrada entre levaduras y bacterias ácido-lácticas es fundamental para obtener una masa madre estable y activa. Cuando existe un adecuado balance entre ambos grupos de microorganismos, se favorece una fermentación uniforme y se obtienen panes con mejor volumen, aroma, textura y vida útil.  
     
     .row.justify-content-center
@@ -187,11 +187,11 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Aplicación práctica
     
-    img(src="@/assets/curso/tema3/12.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema3/12.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-10(data-aos="fade-up")
-        p.banner-text El panadero puede regular las características del pan mediante el control de estas variables. Por ejemplo, una masa madre más hidratada, mantenida en un ambiente templado y utilizada después de un tiempo moderado de fermentación puede producir un pan de acidez suave. En cambio, una masa madre más firme y sometida a una fermentación prolongada puede generar aromas más intensos y una acidez más pronunciada.
+        p.banner-text El panadero puede regular las características del pan mediante el control de estas variables. Por ejemplo, una masa madre más hidratada, mantenida en un ambiente templado y utilizada después de un tiempo moderado de fermentación, puede producir un pan de acidez suave. En cambio, una masa madre más firme y sometida a una fermentación prolongada puede generar aromas más intensos y una acidez más pronunciada.
     
     .row.justify-content-center
       .col-lg-10

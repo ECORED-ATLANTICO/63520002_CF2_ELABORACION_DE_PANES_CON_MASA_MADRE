@@ -161,7 +161,7 @@
                   | Agua total = 350 + 62.5 = 412.5 g.
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-4
-                  | Hidratación real = 412.5 / 562.5 = 73.3%.
+                  | Hidratación real = 412.5 / 562.5 = 73.3 %.
 
     .row.justify-content-center
       .col-lg-10
@@ -219,7 +219,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/6.png", alt="alt")
+              img(src="@/assets/curso/tema5/6.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Amasado manual (método francés) 
             p.mb-0 Se mezclan la harina, el agua y la masa madre hasta integrar los ingredientes. Luego se realiza una autólisis de aproximadamente 30 minutos, que favorece la hidratación de la harina y el desarrollo inicial del gluten. Después se incorpora la sal y se continúa el amasado mediante pliegues y estiramientos hasta obtener una masa lisa, elástica y capaz de superar la prueba de la membrana (<em>windowpane</em>).
@@ -228,7 +228,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/7.png", alt="alt")
+              img(src="@/assets/curso/tema5/7.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Amasado mecánico (amasadora de espiral)
             p.mb-0 En producciones de mayor escala se utiliza la amasadora de espiral. El proceso comprende 3 a 5 minutos a baja velocidad para integrar los ingredientes y 5 a 8 minutos a velocidad media para desarrollar la red de gluten. Durante el amasado se debe controlar que la temperatura de la masa permanezca entre 24 y 26 °C, evitando el sobrecalentamiento que puede afectar la fermentación.  
@@ -434,7 +434,7 @@
       .col-lg-6.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-4.h-100
           h5 Variables de control durante el horneado
-          p Para lograr resultados consistentes es necesario controlar tres variables principales:
+          p Para lograr resultados consistentes, es necesario controlar tres variables principales:
           ul.lista-ul--color.mb-0
             li.mb-3.d-flex
               i.fas.fa-circle-check.bg-color-4
@@ -524,7 +524,7 @@
         .bloque-texto-b.color-primario.p-4(data-aos="fade-up").mb-3
           .bloque-texto-b__texto
             i.fas.fa-quote-left.bg-color-9
-            p.mb-0 Para conservar su calidad se recomienda almacenar el pan temperatura ambiente en paneras o bolsas de papel durante uno a tres días, congelarlo correctamente si se requiere una conservación prolongada, y evitar su refrigeración, ya que acelera el endurecimiento de la amiga por la retrogradación del almidón.
+            p.mb-0 Para conservar su calidad, se recomienda almacenar el pan a temperatura ambiente en paneras o bolsas de papel durante uno a tres días, congelarlo correctamente si se requiere una conservación prolongada y evitar su refrigeración, ya que acelera el endurecimiento de la amiga por la retrogradación del almidón.
             i.fas.fa-quote-right.bg-color-9
           .bloque-texto-d__autor 
             .h5.mb-0  (Flecha, 2015).
